@@ -1,7 +1,3 @@
-Here's a suggested README content for your project, *Harvest Haven*, incorporating icons and a creative layout:
-
----
-
 # 🌾 Harvest Haven - AI-Driven Farming Assistant 🌾
 
 Welcome to **Harvest Haven**, an innovative AI-powered mobile app designed to elevate the agriculture industry by delivering reliable, real-time insights and tools for farmers. From instant disease diagnosis to AI-driven advisory, Harvest Haven is your trusted partner in the fields.
