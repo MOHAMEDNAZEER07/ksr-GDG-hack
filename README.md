@@ -39,8 +39,32 @@ Welcome to **Harvest Haven**, an innovative AI-powered mobile app designed to el
 
 3. **Cloud Services**:
    - 🌐 **MongoDB Atlas**: Securely stores disease data, veterinary requests, and community forum discussions.
+---
+
+## 🤖 AI Model - Fine-tuned with Mistral-Nemo-Instruct-2407
+
+In **Harvest Haven**, we leverage a state-of-the-art, fine-tuned language model, **mistralai/Mistral-Nemo-Instruct-2407**, to provide highly accurate and context-aware responses for our AgriChatbot and diagnostic tools. This model has been customized and deployed to meet the unique needs of farmers, from answering crop-related questions to offering expert advice for livestock health.
+
+### 🌱 Model Fine-Tuning
+
+To enhance relevance, we fine-tuned the **Mistral-Nemo-Instruct-2407** model on agricultural and veterinary datasets. This training ensures that the AI understands and responds accurately to the specific language, terminology, and practical challenges of farming.
+
+Key benefits of our fine-tuned model:
+- **Domain-Specific Knowledge**: Optimized for agriculture and veterinary topics, enabling precise advice.
+- **Robust Natural Language Understanding**: Provides natural, human-like interactions to facilitate a more intuitive user experience.
+
+### 💡 Deployment with Gradio
+
+To make the model accessible to users, we deployed it using **Gradio**, which provides an interactive web interface. This deployment allows seamless integration within the Harvest Haven app, offering farmers an easy-to-use platform for receiving expert guidance.
+
+Gradio setup details:
+1. **Gradio Interface**: Designed with custom UI components to handle text input and image uploads for diagnosis.
+2. **API Integration**: Our Gradio interface is connected to the mobile app, enabling real-time responses from the LLM model for chat-based and diagnostic services.
+3. **Scalability and Security**: Gradio ensures a stable environment, handling multiple requests efficiently, while secure API calls protect user data.
 
 ---
+
+
 
 ## 🔄 Process Flow
 
@@ -76,13 +100,13 @@ To get started with Harvest Haven:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/Harvest-Haven.git
+   git clone https://github.com/Dhaarx/ksr-GDG-hack.git
    ```
 
 2. **Install Dependencies**:
    Navigate to the project folder and install the dependencies:
    ```bash
-   cd Harvest-Haven
+   cd frontend
    npm install
    ```
 
