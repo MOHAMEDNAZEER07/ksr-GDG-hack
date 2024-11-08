@@ -1,0 +1,20 @@
+{
+    "welcome_message": "Welcome to our app!",
+    "login_button": "Login",
+    "logout_button": "Logout",
+    "homet1":"Heal your crop",
+    "pt1":"Take a picture",
+    "pt2":"See diagnosis",
+    "pt3":"Get Medicines",
+    "pbt1":"Take a picture",
+    "pbt2":"Pick from gallery",
+    "t1":"Fertilizer Calculator",
+    "t2":"Crop Recommendation",
+    "t3":"Diseases & Diagnosis",
+    "t4":"Veterinarian Connect",
+    "homescreen":"Home",
+    "chatscreen":"Chatbot",
+    "storescreen":"Store",
+    "forumscreen":"Forum"
+  }
+  
