@@ -69,10 +69,32 @@ Gradio setup details:
 ## 🔄 Process Flow
 
 ![image](https://github.com/user-attachments/assets/04523537-bed9-4de9-8314-39b7f8d7193b)
+Here's an outline of the **Process Flow** for *Harvest Haven*:
 
-1. **Diagnosis**: Users upload an image for instant disease detection.
-2. **Recommendation**: Based on the diagnosis, tailored advice is provided.
-3. **Marketplace**: Sell yields directly to consumers, ensuring profitability and freshness.
+1. **User Input**: Farmers access the Harvest Haven app, where they can either:
+   - Upload images of crops or livestock showing potential signs of disease.
+   - Ask questions or seek advice using the chat interface powered by our fine-tuned LLM model.
+
+2. **Image Analysis and Diagnosis**:
+   - For image-based requests, the app sends the image data to our deep learning model, which uses **PyTorch**-based image classification to identify diseases. The AI model evaluates the image and provides an instant diagnosis along with recommended treatments.
+
+3. **LLM Chat-Based Guidance**:
+   - Text-based inquiries are routed to the **Mistral-Nemo-Instruct-2407** model, fine-tuned for agricultural advice. The model generates a response by interpreting the question, considering recent context, and delivering actionable insights, from disease prevention to optimized fertilizer usage.
+
+4. **Personalized Recommendations**:
+   - The app consolidates diagnostic results and model-generated advice to present tailored recommendations for crop health, livestock care, and pest management. Additionally, it suggests the best-suited fertilizers, watering schedules, and pest control strategies based on local conditions.
+
+5. **Direct Marketplace and Logistics Support**:
+   - Farmers can choose to list their products in the marketplace, connecting directly with consumers. The logistics feature ensures that their goods reach customers in optimal condition, maximizing both freshness and profitability.
+
+6. **Continuous Learning**:
+   - User feedback is integrated to retrain and improve the AI models, enhancing diagnostic accuracy and relevance of advice over time.
+
+This structured workflow ensures that *Harvest Haven* provides a streamlined and responsive user experience, empowering farmers with reliable, AI-driven agricultural support at their fingertips. 
+
+--- 
+
+This flow highlights each step from user interaction to diagnosis, recommendation, and marketplace engagement, ensuring an accessible yet comprehensive agricultural assistant.
 
 ---
 
