@@ -140,3 +140,4 @@ To get started with Harvest Haven:
 ## 📝 Feedback and Contributions
 
 Contributions are welcome! For major changes, please open an issue to discuss your ideas. We look forward to building a sustainable future together! 🧑‍🌾
+enjoy!!!
